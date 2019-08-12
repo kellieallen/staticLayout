@@ -3,7 +3,7 @@ div {
     flex-flow: column;
     font-family: 'Helvetica Neue',Helvetica,Arial,sans-serif;
     color: white;
-background-color: black;
+    background-color: black;
  
   }
 
@@ -13,7 +13,6 @@ background-color: black;
     right: 400px;
     padding-left: 20px;
     padding-right: 20px;
-    color: white;
     background: none;
   }
 
@@ -39,9 +38,12 @@ h2 {
 }
 
 .signin {
-position: absolute;
+
 background: none;
 color: white;
+flex-direction:row;
+justify-content: flex-end;
+margin-right: 10px;
 
 }
 
@@ -116,7 +118,7 @@ background: none;
 
 .blank_row
 {
-    height: 10px !important; /* overwrites any other rules */
+    height: 10px 
     background-color: black;
 }
 
@@ -134,6 +136,7 @@ a {
 
     width: 800px;
     
+    
  }
 
  th 
@@ -142,9 +145,12 @@ a {
      font-size: 18px;
  }
 
+ 
+
  .cancel {
      background: none;
      border-bottom: 3px solid transparent;
+     
 
  }
 
@@ -188,7 +194,18 @@ a {
 
 }
 
-tr
+.signintext
 {
-    color: red;
+    background: none;
+    margin-right: 10px;
+}
+
+.signinred{
+    border: 2px solid red;
+    background: red;
+    border-radius: 5px;
+    padding-left: 15px;
+    padding-right: 15px;
+    color: white;
+    margin-right: 10px;
 }
