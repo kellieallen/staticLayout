@@ -1,0 +1,194 @@
+div {
+    display: flex; 
+    flex-flow: column;
+    font-family: 'Helvetica Neue',Helvetica,Arial,sans-serif;
+    color: white;
+background-color: black;
+ 
+  }
+
+  .watch {
+    position: absolute;
+    bottom: 200px;
+    right: 400px;
+    padding-left: 20px;
+    padding-right: 20px;
+    color: white;
+    background: none;
+  }
+
+h1{
+    text-align: center;
+    font-size: 80px;
+}
+
+h2 {
+    text-align: center;
+    font-size: 30px;
+}
+
+.trial {
+    background-color: red;
+    font-size: 30px;
+    position: relative;
+    padding: 20px 20px 20px 40px;
+    width: 50%;
+    margin-top: 20px;
+    margin-left: 100px;
+    
+}
+
+.signin {
+position: absolute;
+background: none;
+color: white;
+
+}
+
+
+.logo {
+    width: 15%;
+    position: absolute;
+    padding-left: 550px;
+background: none;
+}
+
+.bg {
+    filter: brightness(60%);
+  }
+
+
+.salesnav {
+    padding-top: 15px;
+    border-bottom: 2px solid #3d3d3d;
+    border-right: none;
+    flex-flow: row;
+    justify-content: space-evenly;
+   background: #141414;
+}
+
+.iconbar {
+    flex-flow:row;
+    justify-content: space-evenly
+    font-size: 60px;
+    
+}
+
+.textbar {
+    flex-flow: row;
+    justify-content: space-between;
+    position: absolute;
+   
+}
+
+.canceloption {
+   
+    flex-flow: row;
+    justify-content: space-evenly;
+    
+}
+
+.canceltext {
+    color: white;
+    font-size: 30px;
+    justify-content: center;
+   
+   
+}
+
+.trialbutton {
+
+    background-color: red;
+    position: relative;
+    
+}
+
+.bottom {
+    background-color: black;
+    color: lightgray;
+    font-size: 13px;
+    margin-top: 200px;
+    justify-content: left;
+    width: 75%;
+    padding-left: 100px;
+   
+}
+
+.blank_row
+{
+    height: 10px !important; /* overwrites any other rules */
+    background-color: black;
+}
+
+th {
+    font-size: 15px;
+
+}
+
+a {
+    color: lightgray;
+    text-decoration: none;
+  }
+
+ .table {
+
+    width: 800px;
+    
+ }
+
+ th 
+ {
+     color: gray;
+     font-size: 18px;
+ }
+
+ .cancel {
+     background: none;
+     border-bottom: 3px solid transparent;
+
+ }
+
+ .cancel:hover {
+  border-bottom: 3px solid red;
+}
+
+
+ .price {
+    background: none;
+}
+
+.price:hover {
+    border-bottom: 3px solid red;
+  }
+  
+
+.screens {
+    background: none;
+}
+
+.screens:hover {
+    border-bottom: 3px solid red;
+  }
+  
+  .days
+  {
+     border: 8px solid red;
+     background: red;
+     border-radius: 5px;
+     font-size: 14px;
+     width: 30%;
+  }
+
+.language
+
+{
+    flex-flow: row;
+    margin-top: 15px;
+    color: gray;
+
+}
+
+tr
+{
+    color: red;
+}
